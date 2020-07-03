@@ -1,0 +1,38 @@
+#container {
+
+    width: 700px;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#header {
+
+    text-align: center;
+
+}
+
+#main h2 {
+
+    padding-left: 30px;
+}
+
+#main p {
+
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 22px;
+
+}
+
+#footer {
+
+    height: 100px;
+    color: midnightblue;
+text-align: center;
+}
+
+
