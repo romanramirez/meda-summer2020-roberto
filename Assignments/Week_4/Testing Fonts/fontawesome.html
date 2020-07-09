@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>Lake Tahoe</title>
+
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <styles>
+
+            .poster
+  width: 300px
+  padding: 7%
+  position: relative
+  box-sizing: border-box
+  background-color: white
+  box-shadow: 0 3px 12px alpha(black,.2)
+  filter: saturate(70%) contrast(85%)
+  
+  img
+    width: 100%
+    display: block
+    z-index: 1
+  
+  &:before,
+  &:after
+    content: ''
+    width: 100%
+    left: 0
+    position: absolute
+  
+  &:before
+    height: 4%
+    bottom: -4%
+    background-repeat: no-repeat
+    background-image: linear-gradient(177deg,  alpha(black,.22) 10%, transparent 50%),
+                      linear-gradient(-177deg, alpha(black,.22) 10%, transparent 50%)
+    background-size: 49% 100%
+    background-position: 2% 0,
+                         98% 0
+
+  &:after
+    height: 100%
+    top: 0
+    z-index: 2
+    background-repeat: no-repeat
+    background-image: linear-gradient(to right, alpha(white,.1) .5%, alpha(black,.15) 1.2%, transparent 1.2%),
+                      linear-gradient(to bottom, alpha(white,.1) .5%, alpha(black,.15) 1.2%, transparent 1.2%),
+                      linear-gradient(to bottom, alpha(white,.1) .5%, alpha(black,.15) 1.2%, transparent 1.2%),
+                      linear-gradient(265deg,  alpha(black,.2), transparent 10%),
+                      linear-gradient(5deg,   alpha(black,.2), transparent 15%),
+                      linear-gradient(-5deg,   alpha(black,.1.6), transparent 10%),
+                      linear-gradient(5deg,   alpha(black,.1.6), transparent 10%),
+                      linear-gradient(-265deg,  alpha(black,.2), transparent 10%),
+                      linear-gradient(-5deg,   alpha(black,.2), transparent 15%),
+                      linear-gradient(266deg,  alpha(black,.2), transparent 10%)
+    background-size: 50% 100%,
+                     100% 33.3333%,
+                     100% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%,
+                     50% 33.3333%
+    background-position: right top,
+                         left center,
+                         left bottom,
+                         left  top,
+                         left  top,
+                         right top,
+                         left  center,
+                         right center,
+                         right center,
+                         left  bottom
+
+body
+  background-color: lightsalmon
+  padding: 60px 20px
+  
+.container
+  width: 650px
+  display: grid
+  grid-template-columns: 1fr 1fr
+  align-items: center
+  justify-items: center
+  gap: 60px 30px
+  margin: 0 auto
+
+  > img
+    width: 250px
+
+        </styles>
+
+        <script src="all.min.js"></script>
+
+    
+
+    </head>
+    <body>
+        <header>
+            <span>Journey through the Sierra Nevada Mountains</span>
+            <h1>Lake Tahoe, California</h1>
+        </header>
+
+        <div>
+            <p>
+                Lake Tahoe is one of the most breathtaking mountain ranges in the United States. It's home to a number of ski resorts, summer outdoors activies and attractions. Snow and skiing are a significant part of Lake Tahoe.
+            </p>
+            <a href="#">Find out more</a>
+            <h2>Checkout all the wildlife</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fugiat ipsum numquam quisquam magni tempore cum? Dolor eius quasi officiis maiores ipsum laboriosam doloribus neque, debitis, quis reprehenderit temporibus est. <i class="fas fa-adjust"></i>
+
+
+            </p>
+
+            HTML StylusResult
+<div class="container">
+
+  <img src="https://assets.codepen.io/1025350/schitts-creek.png" alt="the cast of Schitt’s Creek" />
+
+  <div class="poster">
+    <img src="https://assets.codepen.io/1025350/schitts-creek.png" alt="the cast of Schitt’s Creek" />
+  </div>
+
+  <img src="https://assets.codepen.io/1025350/newfoundglory.png" alt="New Found Glory tour poster: 20 years of pop punk" />
+
+  <div class="poster">
+    <img src="https://assets.codepen.io/1025350/newfoundglory.png" alt="New Found Glory tour poster: 20 years of pop punk" />
+  </div>
+
+  <img src="https://assets.codepen.io/1025350/paper-heart.png" alt="movie poster for Charlyne Yi’s Paper Heart" />
+
+  <div class="poster">
+    <img src="https://assets.codepen.io/1025350/paper-heart.png" alt="movie poster for Charlyne Yi’s Paper Heart" />
+  </div>
+
+</div>
+
+            
+
+
+    

@@ -102,9 +102,6 @@ h2 {
 }
 
 body#contact-page form#contact-form {
-    border-color: red;
-    border-width: 1px;
-    border-style: solid;
     text-align: left;
     margin-left: 100px;
 }
@@ -112,7 +109,7 @@ body#contact-page form#contact-form {
 body#contact-page form#contact-form input {
     margin-bottom: 20px;
     height: 50px;
-    width: 400px;
+    width: 75%;
     font-size: 30px;
     border-radius: 15px;
     border-style: solid;
@@ -122,6 +119,6 @@ body#contact-page form#contact-form input {
 }
 
 body#contact-page form#contact-form #submit {
-    font-size: 30px;
-    padding-right: ;
+    font-size: 20px;
+    width: 100px;
 }
