@@ -1,0 +1,19 @@
+design brief
+
+In this project we will be using dark and sleek colors to deliver an elegant design with a modern feel.
+
+The dominant hue will be:
+
+
+#000000 for the background
+
+#434343 for the body and the header
+
+#bdc3c7 for the accents and links
+
+
+Site Map:
+
+About Me (Home)
+The Work
+Contact
