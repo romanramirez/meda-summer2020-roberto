@@ -18,3 +18,4 @@ if (number1 ==10) {
 }
 
 console.log("Program Finished!");
+
