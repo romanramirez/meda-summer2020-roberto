@@ -24,3 +24,32 @@ var myRandomNumber = Math.floor(Math.random() * 10) +1;
 
 console.log(myRandomNumber);
 
+
+// FUNCTIONS
+
+// This code prompts user to respond to the question: "How are you today?"
+
+function myFunction() {
+   var response = prompt("How are you today?");
+
+   if (response === "") {
+       alert("You did not type anything in, bitch.");
+       return false;
+   } else {
+       console.log(response);
+       return true;
+   }
+
+}
+
+// This 
+var didTheyRead = myFunction();
+
+while (didTheyRead === false || didTheyRead === null) {
+    didTheyRead = myFunction();
+}
+
+
+
+
+
