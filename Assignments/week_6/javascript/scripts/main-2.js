@@ -1,4 +1,3 @@
-const { runInContext } = require("vm");
 
 function addNumber() {
     var number1 = 10;
@@ -92,7 +91,6 @@ function addArrays(array1, array2) {
 
     var newArray = [
         array1[0] + array2[0]
-        array1[1] + array2[1]
     ]
 
     return newArray;
@@ -103,3 +101,37 @@ var secondArray = [9, 90];
 var sumArray = addArrays(firstArray, secondArray);
 
 console.log(sumArray);
+
+// Array functions
+// . push() puts a new piece of data at the end of the array. 
+// Ex. myArray.push("last item!");
+// .pop() removes the last piece of data in the array and (returns it to wherever you alled .pop())
+// .shift() removes first piece of data in the array (and returns it to wherever you called it.)
+// .unshift() puts a new piece of data at the beginning of the array.
+
+// PUSH EXAMPLE
+
+var multiples = [];
+var mulitplier = 12;
+
+for(var i = 0; i <= 12; i = i++) {
+
+    var product = i * multiplier; 
+    multiples.push(product);
+
+}
+
+multiples.shift();
+
+//multiples.shift(); will get rid of the starting zero
+
+console.log(multiples);
+
+function multiplesTables(multiplier, max = 12) {
+
+    for (var i = 0; i <= 12; i = i + 1) {
+        var product = i * multiplier;
+        multiples.push(product);
+
+    }
+}
