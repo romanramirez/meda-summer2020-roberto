@@ -13,13 +13,23 @@
 }
 
 
-
 #specialText {
     font-family: 'UnifrakturCook', cursive;
 }
 
-h2 {
+#contact-title {
     color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact-paragraph {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact-form {
+    color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 #container {
@@ -30,6 +40,11 @@ h2 {
 }
 
 #header {
+}
+
+#nav {
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 #header h1 {
@@ -106,9 +121,12 @@ h2 {
     border-radius: 85px;
 }
 
-#div#class#media {
-size: 30px;
+.media {
+size: 50px;
+}
 
+.fa-customize {
+    font-size: 50px;
 }
 
 #footer {
