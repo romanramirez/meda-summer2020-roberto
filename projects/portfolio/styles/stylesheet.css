@@ -39,14 +39,8 @@ h2 {
     padding-bottom: 40px;
     color: snow;
 }
-
-#header ul {
-    color: white;
-    text-align: center;
-    padding-left: 0;
-    margin-bottom: 0;
-    padding-bottom: 20px;
     
+
 }
 
 #header ul li {
@@ -112,6 +106,10 @@ h2 {
     border-radius: 85px;
 }
 
+#div#class#media {
+size: 30px;
+
+}
 
 #footer {
 
