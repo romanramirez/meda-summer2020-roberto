@@ -1,2 +1,7 @@
-/* This is the stylesheet for my portfolio website. /*
+/* This is the stylesheet for my portfolio website. */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+#page-title {
+    font-family: "Raleway", sans-serif;
+}
