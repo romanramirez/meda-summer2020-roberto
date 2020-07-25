@@ -13,11 +13,8 @@ The dominant hue(s) will be:
 
 #333333 for paragraph text to keep with monochromatic scheme and still be able to differentiate between header text and paragraphs.
 
-#BDC3C7 for a splash of color in links and hooks
-
 
 Site Map (included in folder):
-Landing Page (not included in main website site map)
 About Me (Home)
 The Work
 Contact
@@ -28,6 +25,10 @@ Landing Page
 About Me
 The Work
 Contact
+
+Images:
+
+I will be including a few handmade raster and vector logo / images.
 
 Portfolio links:
 https://www.yewonshin.com/
@@ -61,16 +62,10 @@ I pride myself on being able to take a product idea from end to end. From napkin
 
 The Work:
 
-It's all about the work. Heads down and focused. I'm all about taking you from zero to one and launching your idea.  I work with you to draft out your dreams, map out the execution, and get to work making them a reality. I'll work with you to architect your site or product.Starting from barebones HTML and CSS - we can make your site beautiful, modern, elegant, electric, however you want. Architecting through JavaScript allows us to bring life to your site. Let your users and clients interact with your work.
+This is the gallery. Check out a few of my made-from-scratch designs and graphic art.
 
 
 Contact:
 
-Say hi
-
-Or send us an email. 
-
-Have a great new product idea and are ready to launch? Let's chat.
-
-Let's talk about making your idea, a reality. 
+Say hi! Hit me up to see how we can make some digital magic!
 
